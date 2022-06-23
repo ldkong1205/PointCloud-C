@@ -30,7 +30,7 @@
 
 ## About
 
-<strong>PointCloud-C</strong> is the very first test-suite for <strong>point cloud robustness</strong> analysis under corruptions. It includes two sets: [ModelNet-C](https://arxiv.org/abs/2202.03377) (ICML'22) for point cloud classification and [ShapeNet-C]() (arXiv'22) for part segmentation.
+<strong>PointCloud-C</strong> is the very first test-suite for <strong>point cloud robustness analysis under corruptions</strong>. It includes two sets: [ModelNet-C](https://arxiv.org/abs/2202.03377) (ICML'22) for point cloud <strong>classification</strong> and [ShapeNet-C]() (arXiv'22) for <strong>part segmentation</strong>.
 
 <br>
 <p align="center">
@@ -77,26 +77,31 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 
 #### ModelNet-C (Classification)
 
-| Method          | Reference                                                  | Standalone |  mCE  | Clean OA |
-| --------------- | ---------------------------------------------------------- | :--------: | :---: | :------: |
-| DGCNN           | [Wang et al.](https://arxiv.org/abs/1801.07829)            |     Yes    | 1.000 |   0.926  |
-| PointNet        | [Qi et al.](https://arxiv.org/abs/1612.00593)              |     Yes    | 1.422 |   0.907  |
-| PointNet++      | [Qi et al.](https://arxiv.org/abs/1706.02413)              |     Yes    | 1.072 |   0.930  |
-| RSCNN           | [Liu et al.](https://arxiv.org/abs/1904.07601)             |     Yes    | 1.130 |   0.923  |
-| SimpleView      | [Goyal et al.](https://arxiv.org/abs/2106.05304)           |     Yes    | 1.047 |   0.939  |
-| GDANet          | [Xu et al.](https://arxiv.org/abs/2012.10921)              |     Yes    | 0.892 |   0.934  |
-| CurveNet        | [Xiang et al.](https://arxiv.org/abs/2105.01288)           |     Yes    | 0.927 |   0.938  |
-| PAConv          | [Xu et al.](https://arxiv.org/abs/2103.14635)              |     Yes    | 1.104 |   0.936  |
-| PCT             | [Guo et al.](https://arxiv.org/abs/2012.09688)             |     Yes    | 0.925 |   0.930  |
-| RPC             | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     Yes    | 0.863 |   0.930  |
-| DGCNN+PointWOLF | [Kim et al.](https://arxiv.org/abs/2110.05379)             |     No     | 0.814 |   0.926  |
-| DGCNN+RSMix     | [Lee et al.](https://arxiv.org/abs/2102.01929)             |     No     | 0.745 |   0.930  |
-| DGCNN+WOLFMix   | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.590 |   0.932  |
-| GDANet+WOLFMix  | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.571 |   0.934  |
+| Method            | Reference                                                  | Standalone |  mCE $\downarrow$ | RmCE $\downarrow$ | Clean OA $\uparrow$ |
+| ----------------- | ---------------------------------------------------------- | :--------: | :---: | :---: | :------: |
+| DGCNN             | [Wang et al.](https://arxiv.org/abs/1801.07829)            |     Yes    | 1.000 | 1.000 |  0.926   |
+| PointNet          | [Qi et al.](https://arxiv.org/abs/1612.00593)              |     Yes    | 1.422 | 1.488 |  0.907   |
+| PointNet++        | [Qi et al.](https://arxiv.org/abs/1706.02413)              |     Yes    | 1.072 | 1.114 |  0.930   |
+| RSCNN             | [Liu et al.](https://arxiv.org/abs/1904.07601)             |     Yes    | 1.130 | 1.201 |  0.923   |
+| SimpleView        | [Goyal et al.](https://arxiv.org/abs/2106.05304)           |     Yes    | 1.047 | 1.181 |  0.939   |
+| GDANet            | [Xu et al.](https://arxiv.org/abs/2012.10921)              |     Yes    | 0.892 | 0.865 |  0.934   |
+| CurveNet          | [Xiang et al.](https://arxiv.org/abs/2105.01288)           |     Yes    | 0.927 | 0.978 |  0.938   |
+| PAConv            | [Xu et al.](https://arxiv.org/abs/2103.14635)              |     Yes    | 1.104 | 1.211 |  0.936   |
+| PCT               | [Guo et al.](https://arxiv.org/abs/2012.09688)             |     Yes    | 0.925 | 0.884 |  0.930   |
+| RPC               | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     Yes    | 0.863 | 0.778 |  0.930   |
+| OcCo (DGCNN)      | [Wang et al.](https://arxiv.org/abs/2010.01089)            |     No     | 1.248 | 1.262 |  0.922   |
+| PointBERT         | [Yu et al.](https://arxiv.org/abs/2111.14819)              |     No     | 1.033 | 0.895 |  0.922   |
+| PointMixUp (PointNet++) | [Chen et al.](https://arxiv.org/abs/2008.06374)      |     No     | 1.028 | 0.785 |  0.915   |
+| PointWOLF (DGCNN) | [Kim et al.](https://arxiv.org/abs/2110.05379)             |     No     | 0.814 | 0.698 |  0.926   |
+| RSMix (DGCNN)     | [Lee et al.](https://arxiv.org/abs/2102.01929)             |     No     | 0.745 | 0.839 |  0.930   |
+| WOLFMix (DGCNN)   | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.590 | 0.485 |  0.932   |
+| WOLFMix (GDANet)  | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.571 | 0.439 |  0.934   |
+| WOLFMix (PCT)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.574 | 0.653 |  0.934   |
+| WOLFMix (RPC)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.601 | 0.940 |  0.933   |
 
 #### ShapeNet-C (Part Segmentation)
 
-| Method            | Reference                                                  | Standalone |  mCE  |   mRCE   |  mIoU |
+| Method            | Reference                                                  | Standalone |  mCE $\downarrow$ |   RmCE $\downarrow$  | Clean mIoU $\uparrow$ |
 | ----------------- | ---------------------------------------------------------- | :--------: | :---: | :------: | :---: |
 | DGCNN             | [Wang et al.](https://arxiv.org/abs/1801.07829)            |     Yes    | 1.000 |   1.000  | 0.852 |
 | PointNet          | [Qi et al.](https://arxiv.org/abs/1612.00593)              |     Yes    | 1.178 |   1.056  | 0.833 |
@@ -151,12 +156,13 @@ We acknowledge the use of the following public resources during the course of th
 <sup>4</sup>[CurveNet](https://github.com/tiangexiang/CurveNet),
 <sup>5</sup>[PAConv](https://github.com/CVMI-Lab/PAConv),
 <sup>6</sup>[RSMix](https://github.com/dogyoonlee/RSMix),
-<sup>7</sup>[PointWOLF](https://github.com/mlvlab/PointWOLF),
-<sup>8</sup>[PointTransformers](https://github.com/qq456cvb/Point-Transformers),
-<sup>9</sup>[OcCo](https://github.com/hansen7/OcCo),
-<sup>10</sup>[PointMLP](https://github.com/ma-xu/pointMLP-pytorch),
-<sup>11</sup>[PointBERT](https://github.com/lulutang0608/Point-BERT),
-and <sup>12</sup>[PointMAE](https://github.com/Pang-Yatian/Point-MAE).
+<sup>7</sup>[PointMixUp](https://github.com/yunlu-chen/PointMixup),
+<sup>8</sup>[PointWOLF](https://github.com/mlvlab/PointWOLF),
+<sup>9</sup>[PointTransformers](https://github.com/qq456cvb/Point-Transformers),
+<sup>10</sup>[OcCo](https://github.com/hansen7/OcCo),
+<sup>11</sup>[PointMLP](https://github.com/ma-xu/pointMLP-pytorch),
+<sup>12</sup>[PointBERT](https://github.com/lulutang0608/Point-BERT),
+and <sup>13</sup>[PointMAE](https://github.com/Pang-Yatian/Point-MAE).
 
 
 
