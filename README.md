@@ -113,8 +113,8 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | PAConv            | [Xu et al.](https://arxiv.org/abs/2103.14635)              |     Yes    | 0.927 |   0.848  | 0.859 |
 | PointTransformers | [Zhao et al.](https://arxiv.org/abs/2012.09164)            |     Yes    | 1.049 |   0.933  | 0.840 |
 | PointMLP          | [Ma et al.](https://arxiv.org/abs/2202.07123)              |     Yes    | 0.977 |   0.810  | 0.853 |
-| PointBERT         | [Yu et al.](https://arxiv.org/abs/2111.14819)              |     Yes    | 1.033 |   0.895  | 0.855 |
-| PointMAE          | [Pang et al.](https://arxiv.org/abs/2203.06604)            |     Yes    | 0.927 |   0.703  | 0.860 |
+| PointBERT         | [Yu et al.](https://arxiv.org/abs/2111.14819)              |     No     | 1.033 |   0.895  | 0.855 |
+| PointMAE          | [Pang et al.](https://arxiv.org/abs/2203.06604)            |     No     | 0.927 |   0.703  | 0.860 |
 
 *Note: Standalone indicates whether or not the method is a standalone architecture or a combination with augmentation or pretrain.
 
