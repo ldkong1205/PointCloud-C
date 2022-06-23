@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-blue">
   </a>
   
-  <a href="[https://ldkong.com/LaserMix](https://pointcloud-c.github.io/home)" target='_blank'>
+  <a href="https://pointcloud-c.github.io/home" target='_blank'>
     <img src="https://img.shields.io/badge/Project-%F0%9F%8E%AC-green">
   </a>
   
