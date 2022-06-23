@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 python main_ddp.py --config config/dgcnn_paconv_train.yaml

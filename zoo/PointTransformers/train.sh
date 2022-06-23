@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 HYDRA_FULL_ERROR=1 python train_partseg.py

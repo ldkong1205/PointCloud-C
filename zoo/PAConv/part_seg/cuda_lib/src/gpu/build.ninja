@@ -1,0 +1,26 @@
+ninja_required_version = 1.3
+cxx = /mnt/lustre/share/gcc/gcc-5.3.0/bin/c++
+nvcc = /mnt/lustre/share/cuda-10.0/bin/nvcc
+
+cflags = -DTORCH_EXTENSION_NAME=gpconv_cuda -DTORCH_API_INCLUDE_EXTENSION_H -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include/TH -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include/THC -isystem /mnt/lustre/share/cuda-10.0/include -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/include/python3.7m -D_GLIBCXX_USE_CXX11_ABI=0 -fPIC -std=c++11
+cuda_flags = -DTORCH_EXTENSION_NAME=gpconv_cuda -DTORCH_API_INCLUDE_EXTENSION_H -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include/torch/csrc/api/include -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include/TH -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/lib/python3.7/site-packages/torch/include/THC -isystem /mnt/lustre/share/cuda-10.0/include -isystem /mnt/lustre/ldkong/anaconda3/envs/modelnetc/include/python3.7m -D_GLIBCXX_USE_CXX11_ABI=0 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr -gencode=arch=compute_70,code=sm_70 --compiler-options '-fPIC' -std=c++11
+ldflags = -shared -L/mnt/lustre/share/cuda-10.0/lib64 -lcudart
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out
+  depfile = $out.d
+  deps = gcc
+
+rule cuda_compile
+  command = $nvcc $cuda_flags -c $in -o $out
+
+rule link
+  command = $cxx $in $ldflags -o $out
+
+build operator.o: compile /mnt/lustre/ldkong/models/PAConv/part_seg/cuda_lib/src/gpu/operator.cpp
+build assign_score_withk_gpu.cuda.o: cuda_compile /mnt/lustre/ldkong/models/PAConv/part_seg/cuda_lib/src/gpu/assign_score_withk_gpu.cu
+
+build gpconv_cuda.so: link operator.o assign_score_withk_gpu.cuda.o
+
+default gpconv_cuda.so
+
