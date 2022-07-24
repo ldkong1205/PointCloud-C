@@ -45,6 +45,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 ## Updates
 
+- \[2022.07\] - Try a [Gradio demo](https://huggingface.co/spaces/ICML2022/PointCloudC) for PointCloud-C corruptions at Hugging Face Space! :hugs:
 - \[2022.07\] - Competition starts! Join now at our [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6437) page.
 - \[2022.06\] - PointCloud-C is now live on [Paper-with-Code](https://paperswithcode.com/dataset/pointcloud-c). Join the benchmark today!
 - \[2022.06\] - The 1st PointCloud-C challenge will be hosted in conjecture with the ECCV'22 [SenseHuman](https://sense-human.github.io/) workshop. 🚀
