@@ -16,7 +16,7 @@ Alternatively, you may download ModelNet-C from our <a href="https://pointcloud-
 Download ShapeNet-C by:
 ```shell
 cd data
-gdown https://drive.google.com/uc?id=
+gdown https://drive.google.com/uc?id=1OqdJ9q1GjVu46QdPC4coa8M5e-xOrJ_g
 unzip shapenet_c.zip && cd ..
 ```
 Alternatively, you may download ShapeNet-C from our <a href="https://pointcloud-c.github.io/download.html" target='_blank'>project page</a>.
