@@ -23,6 +23,10 @@
     <img src="https://img.shields.io/badge/Project-%F0%9F%8E%AC-green">
   </a>
   
+  <a href="https://huggingface.co/spaces/ICML2022/PointCloudC" target='_blank'>
+    <img src="https://img.shields.io/badge/Demo-%F0%9F%A4%97-yellow">
+  </a>
+  
   <a href="https://zhuanlan.zhihu.com/p/529498676" target='_blank'>
     <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
   </a>
@@ -45,7 +49,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 ## Updates
 
-- \[2022.07\] - Try a [Gradio demo](https://huggingface.co/spaces/ICML2022/PointCloudC) for PointCloud-C corruptions at Hugging Face Space! :hugs:
+- \[2022.07\] - Try a [Gradio demo](https://huggingface.co/spaces/ICML2022/PointCloudC) for PointCloud-C corruptions at Hugging Face Spaces! :hugs:
 - \[2022.07\] - Competition starts! Join now at our [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6437) page.
 - \[2022.06\] - PointCloud-C is now live on [Paper-with-Code](https://paperswithcode.com/dataset/pointcloud-c). Join the benchmark today!
 - \[2022.06\] - The 1st PointCloud-C challenge will be hosted in conjecture with the ECCV'22 [SenseHuman](https://sense-human.github.io/) workshop. 🚀
@@ -55,6 +59,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 ## Overview
 
+- [Highlight](#highlight)
 - [Data Preparation](docs/DATA_PREPARE.md)
 - [Getting Started](docs/GET_STARTED.md)
 - [Benchmark Results](#benchmark-results)
@@ -65,6 +70,33 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 - [License](#license)
 - [Acknowledgement](#acknowledgement)
 - [Citation](#citation)
+
+
+## Highlight
+#### Corruption Taxonomy
+<br>
+<p align="center">
+  <img src="figs/c-taxonomy.png" align="center" width="99%">
+</p>
+<br>
+
+
+#### ModelNet-C (Classification)
+<br>
+<p align="center">
+  <img src="figs/c-classification.jpeg" align="center" width="99%">
+</p>
+<br>
+
+
+#### ShapeNet-C (Part Segmentation)
+<br>
+<p align="center">
+  <img src="figs/c-partseg.png" align="center" width="99%">
+</p>
+<br>
+
+
 
 
 ## Data Preparation
