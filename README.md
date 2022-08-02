@@ -74,9 +74,8 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 ## Highlight
 #### Corruption Taxonomy
-<br>
 <p align="center">
-  <img src="figs/c-taxonomy.png" align="center" width="99%">
+  <img src="figs/c-taxonomy.png" align="center" width="95%">
 </p>
 <br>
 
@@ -84,7 +83,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 #### ModelNet-C (Classification)
 <br>
 <p align="center">
-  <img src="figs/c-classification.jpeg" align="center" width="99%">
+  <img src="figs/c-classification.jpeg" align="center" width="95%">
 </p>
 <br>
 
@@ -92,7 +91,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 #### ShapeNet-C (Part Segmentation)
 <br>
 <p align="center">
-  <img src="figs/c-partseg.png" align="center" width="99%">
+  <img src="figs/c-partseg.png" align="center" width="95%">
 </p>
 <br>
 
