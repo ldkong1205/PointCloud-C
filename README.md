@@ -77,26 +77,18 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 <p align="center">
   <img src="figs/c-taxonomy.png" align="center" width="95%">
 </p>
-<br>
-
 
 #### ModelNet-C (Classification)
 <br>
 <p align="center">
   <img src="figs/c-classification.jpeg" align="center" width="95%">
 </p>
-<br>
-
 
 #### ShapeNet-C (Part Segmentation)
 <br>
 <p align="center">
   <img src="figs/c-partseg.png" align="center" width="95%">
 </p>
-<br>
-
-
-
 
 ## Data Preparation
 Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepare the ModelNet-C and ShapeNet-C datasets.
