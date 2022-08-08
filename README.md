@@ -20,11 +20,11 @@
   </a>
   
   <a href="https://pointcloud-c.github.io/home" target='_blank'>
-    <img src="https://img.shields.io/badge/Project-%F0%9F%8E%AC-green">
+    <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-green">
   </a>
   
   <a href="https://huggingface.co/spaces/ICML2022/PointCloudC" target='_blank'>
-    <img src="https://img.shields.io/badge/Demo-%F0%9F%A4%97-yellow">
+    <img src="https://img.shields.io/badge/Demo-%F0%9F%8E%AC-yellow">
   </a>
   
   <a href="https://zhuanlan.zhihu.com/p/529498676" target='_blank'>
