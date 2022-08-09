@@ -1,10 +1,11 @@
 <br />
 <p align="center">
   <img src="figs/logo.png" align="center" width="40%">
+  
+  
+  <h3 align="center"><strong>Benchmarking and Analyzing Point Cloud Robustness under Corruptions</strong></h3>
 
   <p align="center">
-  <strong>Benchmarking and Analyzing Point Cloud Robustness under Corruptions</strong>
-    <br>
       <a href="https://scholar.google.com/citations?user=YUKPVCoAAAAJ" target='_blank'>Jiawei Ren</a>,&nbsp;
       <a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target='_blank'>Lingdong Kong</a>,&nbsp;
       <a href="https://scholar.google.com/citations?user=lSDISOcAAAAJ" target='_blank'>Liang Pan</a>,&nbsp;
