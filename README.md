@@ -3,7 +3,7 @@
   <img src="figs/logo.png" align="center" width="40%">
   
   
-  <h3 align="center"><strong>Benchmarking and Analyzing Point Cloud Robustness under Corruptions</strong></h3>
+  <h3 align="center"><strong>Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions</strong></h3>
 
   <p align="center">
       <a href="https://scholar.google.com/citations?user=YUKPVCoAAAAJ" target='_blank'>Jiawei Ren</a>,&nbsp;
@@ -35,7 +35,7 @@
 
 ## About
 
-<strong>PointCloud-C</strong> is the very first test-suite for <strong>point cloud robustness analysis under corruptions</strong>. It includes two sets: [ModelNet-C](https://arxiv.org/abs/2202.03377) (ICML'22) for point cloud <strong>classification</strong> and [ShapeNet-C]() (arXiv'22) for <strong>part segmentation</strong>.
+<strong>PointCloud-C</strong> is the very first test-suite for <strong>point cloud perception robustness analysis under corruptions</strong>. It includes two sets: [ModelNet-C](https://arxiv.org/abs/2202.03377) (ICML'22) for point cloud <strong>classification</strong> and [ShapeNet-C]() (arXiv'22) for <strong>part segmentation</strong>.
 
 <br>
 <p align="center">
@@ -50,6 +50,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 ## Updates
 
+- \[2022.10\] - We have successfully hosted the [2022 PointCloud-C Challenge](https://pointcloud-c.github.io/competition.html). Congratulations to the winners: 🥇 ``Antins_cv``, 🥈 ``DGPC`` & ``DGPS``, and 🥉 ``BIT_gdxy_xtf``.
 - \[2022.07\] - Try a [Gradio demo](https://huggingface.co/spaces/ICML2022/PointCloudC) for PointCloud-C corruptions at Hugging Face Spaces! :hugs:
 - \[2022.07\] - Competition starts! Join now at our [CodaLab](https://codalab.lisn.upsaclay.fr/competitions/6437) page.
 - \[2022.06\] - PointCloud-C is now live on [Paper-with-Code](https://paperswithcode.com/dataset/pointcloud-c). Join the benchmark today!
@@ -163,7 +164,8 @@ You can manage to generate your own "PointCloud-C"! Follow the instructions in [
 - [x] Add license. See [here](#license) for more details.
 - [x] Release test sets. Download ModelNet-C and ShapeNet-C from our <a href="https://pointcloud-c.github.io/home" target='_blank'>project page</a>.
 - [x] Add evaluation scripts for classification models.
-- [ ] Add evaluation scripts for part segmentation models.
+- [x] Add evaluation scripts for part segmentation models.
+- [ ] Add competition details.
 - [ ] Clean and retouch codebase.
 
 
@@ -198,7 +200,7 @@ If you find this work helpful, please kindly consider citing our papers:
 
 ```bibtex
 @ARTICLE{ren2022pointcloud-c,
-  title={Benchmarking and Analyzing Point Cloud Robustness under Corruptions},
+  title={Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions},
   author={Jiawei Ren and Lingdong Kong and Liang Pan and Ziwei Liu},
   journal={arXiv:220x.xxxxx},
   year={2022}
