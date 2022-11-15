@@ -35,7 +35,7 @@
 
 ## About
 
-<strong>PointCloud-C</strong> is the very first test-suite for <strong>point cloud perception robustness analysis under corruptions</strong>. It includes two sets: [ModelNet-C](https://arxiv.org/abs/2202.03377) (ICML'22) for point cloud <strong>classification</strong> and [ShapeNet-C]() (arXiv'22) for <strong>part segmentation</strong>.
+<strong>PointCloud-C</strong> is the very first test-suite for <strong>point cloud perception robustness analysis under corruptions</strong>. It includes two sets: [ModelNet-C](https://arxiv.org/abs/2202.03377) (ICML'22) for point cloud <strong>classification</strong> and [ShapeNet-C](https://pointcloud-c.github.io/asset/2022_PointCloud-C_preprint.pdf) (arXiv'22) for <strong>part segmentation</strong>.
 
 <br>
 <p align="center">
@@ -201,7 +201,7 @@ If you find this work helpful, please kindly consider citing our papers:
 
 ```bibtex
 @ARTICLE{ren2022pointcloud-c,
-  title={Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions},
+  title={PointCloud-C: Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions},
   author={Jiawei Ren and Lingdong Kong and Liang Pan and Ziwei Liu},
   journal={arXiv:220x.xxxxx},
   year={2022}
