@@ -120,6 +120,7 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | OcCo (DGCNN)      | [Wang et al.](https://arxiv.org/abs/2010.01089)            |     No     | 1.248 | 1.262 |  0.922   |
 | PointBERT         | [Yu et al.](https://arxiv.org/abs/2111.14819)              |     No     | 1.033 | 0.895 |  0.922   |
 | PointMixUp (PointNet++) | [Chen et al.](https://arxiv.org/abs/2008.06374)      |     No     | 1.028 | 0.785 |  0.915   |
+| PointCutMix-K (PointNet++)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.806 | 0.808 |  0.933   |
 | PointWOLF (DGCNN) | [Kim et al.](https://arxiv.org/abs/2110.05379)             |     No     | 0.814 | 0.698 |  0.926   |
 | RSMix (DGCNN)     | [Lee et al.](https://arxiv.org/abs/2102.01929)             |     No     | 0.745 | 0.839 |  0.930   |
 | PointCutMix-R (DGCNN)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.627 | 0.504 |  0.926   |
@@ -190,12 +191,13 @@ We acknowledge the use of the following public resources during the course of th
 <sup>5</sup>[PAConv](https://github.com/CVMI-Lab/PAConv),
 <sup>6</sup>[RSMix](https://github.com/dogyoonlee/RSMix),
 <sup>7</sup>[PointMixUp](https://github.com/yunlu-chen/PointMixup),
-<sup>8</sup>[PointWOLF](https://github.com/mlvlab/PointWOLF),
-<sup>9</sup>[PointTransformers](https://github.com/qq456cvb/Point-Transformers),
-<sup>10</sup>[OcCo](https://github.com/hansen7/OcCo),
-<sup>11</sup>[PointMLP](https://github.com/ma-xu/pointMLP-pytorch),
-<sup>12</sup>[PointBERT](https://github.com/lulutang0608/Point-BERT),
-and <sup>13</sup>[PointMAE](https://github.com/Pang-Yatian/Point-MAE).
+<sup>8</sup>[PointCutMix](https://github.com/cuge1995/PointCutMix),
+<sup>9</sup>[PointWOLF](https://github.com/mlvlab/PointWOLF),
+<sup>10</sup>[PointTransformers](https://github.com/qq456cvb/Point-Transformers),
+<sup>11</sup>[OcCo](https://github.com/hansen7/OcCo),
+<sup>12</sup>[PointMLP](https://github.com/ma-xu/pointMLP-pytorch),
+<sup>13</sup>[PointBERT](https://github.com/lulutang0608/Point-BERT),
+and <sup>14</sup>[PointMAE](https://github.com/Pang-Yatian/Point-MAE).
 
 
 
