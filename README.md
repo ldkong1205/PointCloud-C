@@ -122,7 +122,7 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | PointMixUp (PointNet++) | [Chen et al.](https://arxiv.org/abs/2008.06374)      |     No     | 1.028 | 0.785 |  0.915   |
 | PointWOLF (DGCNN) | [Kim et al.](https://arxiv.org/abs/2110.05379)             |     No     | 0.814 | 0.698 |  0.926   |
 | RSMix (DGCNN)     | [Lee et al.](https://arxiv.org/abs/2102.01929)             |     No     | 0.745 | 0.839 |  0.930   |
-| PointCutMix-R (DGCNN)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.504 | 0.627 |  0.869   |
+| PointCutMix-R (DGCNN)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.504 | 0.627 |  0.868   |
 | WOLFMix (DGCNN)   | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.590 | 0.485 |  0.932   |
 | WOLFMix (GDANet)  | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.571 | 0.439 |  0.934   |
 | WOLFMix (PCT)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.574 | 0.653 |  0.934   |
