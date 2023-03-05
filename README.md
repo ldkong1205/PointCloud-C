@@ -127,6 +127,7 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | WOLFMix (DGCNN)   | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.590 | 0.485 |  0.932   |
 | WOLFMix (GDANet)  | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.571 | 0.439 |  0.934   |
 | WOLFMix (PCT)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.574 | 0.653 |  0.934   |
+| PointCutMix-K (PCT)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.644 | 0.565 |  0.931   |
 | WOLFMix (RPC)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.601 | 0.940 |  0.933   |
 
 #### ShapeNet-C (Part Segmentation)
