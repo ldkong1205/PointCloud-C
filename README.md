@@ -121,6 +121,7 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | PointBERT         | [Yu et al.](https://arxiv.org/abs/2111.14819)              |     No     | 1.033 | 0.895 |  0.922   |
 | PointMixUp (PointNet++) | [Chen et al.](https://arxiv.org/abs/2008.06374)      |     No     | 1.028 | 0.785 |  0.915   |
 | PointCutMix-K (PointNet++)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.806 | 0.808 |  0.933   |
+| PointCutMix-R (PointNet++)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.796 | 0.809 |  0.929   |
 | PointWOLF (DGCNN) | [Kim et al.](https://arxiv.org/abs/2110.05379)             |     No     | 0.814 | 0.698 |  0.926   |
 | RSMix (DGCNN)     | [Lee et al.](https://arxiv.org/abs/2102.01929)             |     No     | 0.745 | 0.839 |  0.930   |
 | PointCutMix-R (DGCNN)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.627 | 0.504 |  0.926   |
@@ -129,7 +130,7 @@ Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about 
 | WOLFMix (GDANet)  | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.571 | 0.439 |  0.934   |
 | WOLFMix (PCT)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.574 | 0.653 |  0.934   |
 | PointCutMix-K (PCT)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.644 | 0.565 |  0.931   |
-| PointCutMix-K (PCT)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.608 | 0.518 |  0.928   |
+| PointCutMix-R (PCT)     | [Zhang et al.](https://arxiv.org/pdf/2101.01461)             |     No     | 0.608 | 0.518 |  0.928   |
 | WOLFMix (RPC)     | [Ren et al.](https://arxiv.org/abs/2202.03377)             |     No     | 0.601 | 0.940 |  0.933   |
 
 #### ShapeNet-C (Part Segmentation)
