@@ -33,7 +33,7 @@
   </a>
   
   <a href="" target='_blank'>
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=ldkong1205.Robo3D&left_color=gray&right_color=yellow">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ldkong1205.PointCloud-C&left_color=gray&right_color=yellow">
   </a>
 </p>
 
