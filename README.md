@@ -17,11 +17,11 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2202.03377" target='_blank'>
-    <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-blue">
+    <img src="https://img.shields.io/badge/Paper-%F0%9F%93%83-yellow">
   </a>
   
   <a href="https://pointcloud-c.github.io/home" target='_blank'>
-    <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-green">
+    <img src="https://img.shields.io/badge/Project-%F0%9F%94%97-lightyellow">
   </a>
   
   <a href="https://huggingface.co/spaces/ICML2022/PointCloudC" target='_blank'>
@@ -29,7 +29,11 @@
   </a>
   
   <a href="https://zhuanlan.zhihu.com/p/529498676" target='_blank'>
-    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-red">
+    <img src="https://img.shields.io/badge/%E4%B8%AD%E8%AF%91%E7%89%88-%F0%9F%90%BC-lightyellow">
+  </a>
+  
+  <a href="" target='_blank'>
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=ldkong1205.Robo3D&left_color=gray&right_color=yellow">
   </a>
 </p>
 
