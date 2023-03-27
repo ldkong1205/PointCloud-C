@@ -54,6 +54,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 ## Updates
 
+- \[2023.03\] - Intend to test the robustness of your 3D semantic segmentation models on outdoor point clouds? Check our recent work, [Robo3D](https://github.com/ldkong1205/Robo3D), a comprehensive suite that enables OoD robustness evaluation of 3D segmentors on our newly established datasets: `SemanticKITTI-C`, `nuScenes-C`, and `WOD-C`.
 - \[2022.11\] - The preprint of the PointCloud-C paper (ModelNet-C + ShapeNet-C) is available [here](https://pointcloud-c.github.io/asset/2022_PointCloud-C_preprint.pdf).
 - \[2022.10\] - We have successfully hosted the [2022 PointCloud-C Challenge](https://pointcloud-c.github.io/competition.html). Congratulations to the winners: 🥇 ``Antins_cv``, 🥈 ``DGPC`` & ``DGPS``, and 🥉 ``BIT_gdxy_xtf``.
 - \[2022.07\] - Try a [Gradio demo](https://huggingface.co/spaces/ICML2022/PointCloudC) for PointCloud-C corruptions at Hugging Face Spaces! :hugs:
