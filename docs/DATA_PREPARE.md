@@ -3,23 +3,28 @@
 # Prepare Data
 
 ### Classification
-Download ModelNet-C by:
+Download `ModelNet-C` by:
 ```shell
 cd data
 gdown https://drive.google.com/uc?id=1KE6MmXMtfu_mgxg4qLPdEwVD5As8B0rm
 unzip modelnet_c.zip && cd ..
 ```
-Alternatively, you may download ModelNet-C from our <a href="https://pointcloud-c.github.io/download.html" target='_blank'>project page</a>.
-
+Alternatively, you may download `ModelNet-C` from our <a href="https://pointcloud-c.github.io/download.html" target='_blank'>project page</a> or run the following command:
+```shell
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KE6MmXMtfu_mgxg4qLPdEwVD5As8B0rm' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KE6MmXMtfu_mgxg4qLPdEwVD5As8B0rm" -O modelnet_c.zip && rm -rf /tmp/cookies.txt
+```
 
 ### Part Segmentation
-Download ShapeNet-C by:
+Download `ShapeNet-C` by:
 ```shell
 cd data
 gdown https://drive.google.com/uc?id=1OqdJ9q1GjVu46QdPC4coa8M5e-xOrJ_g
 unzip shapenet_c.zip && cd ..
 ```
-Alternatively, you may download ShapeNet-C from our <a href="https://pointcloud-c.github.io/download.html" target='_blank'>project page</a>.
+Alternatively, you may download `ShapeNet-C` from our <a href="https://pointcloud-c.github.io/download.html" target='_blank'>project page</a> or run the following command:
+```shell
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1OqdJ9q1GjVu46QdPC4coa8M5e-xOrJ_g' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1OqdJ9q1GjVu46QdPC4coa8M5e-xOrJ_g" -O shapenet_c.zip && rm -rf /tmp/cookies.txt
+```
 
 
 ### Dataset Structure
