@@ -53,6 +53,8 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 
 ## Updates
+
+- \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for [The RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
 - \[2023.12\] - We are hosting [The RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
 - \[2023.03\] - Intend to test the robustness of your 3D perception models on real-world point clouds? Check our recent work, [Robo3D](https://github.com/ldkong1205/Robo3D), a comprehensive suite that enables OoD robustness evaluation of 3D detectors and segmentors on our newly established datasets: `KITTI-C`, `SemanticKITTI-C`, `nuScenes-C`, and `WOD-C`.
 - \[2022.11\] - The preprint of the PointCloud-C paper (ModelNet-C + ShapeNet-C) is available [here](https://pointcloud-c.github.io/asset/2022_PointCloud-C_preprint.pdf).
@@ -212,20 +214,20 @@ and <sup>14</sup>[PointMAE](https://github.com/Pang-Yatian/Point-MAE).
 If you find this work helpful, please kindly consider citing our papers:
 
 ```bibtex
-@ARTICLE{ren2022pointcloud-c,
-  title={PointCloud-C: Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions},
-  author={Jiawei Ren and Lingdong Kong and Liang Pan and Ziwei Liu},
-  journal={arXiv:220x.xxxxx},
-  year={2022}
+@article{ren2022pointcloud-c,
+  title = {PointCloud-C: Benchmarking and Analyzing Point Cloud Perception Robustness under Corruptions},
+  author = {Jiawei Ren and Lingdong Kong and Liang Pan and Ziwei Liu},
+  journal = {Preprint},
+  year = {2022}
 }
 ```
 
 ```bibtex
-@ARTICLE{ren2022modelnet-c,
-  title={Benchmarking and Analyzing Point Cloud Classification under Corruptions},
-  author={Jiawei Ren and Liang Pan and Ziwei Liu},
-  journal={International Conference on Machine Learning (ICML)},
-  year={2022}
+@inproceedings{ren2022modelnet-c,
+  title = {Benchmarking and Analyzing Point Cloud Classification under Corruptions},
+  author = {Jiawei Ren and Liang Pan and Ziwei Liu},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2022}
 }
 ```
 
