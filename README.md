@@ -53,7 +53,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 
 
 ## Updates
-
+- \[2024.03\] - We add [Leaderboard](#leaderboard) to this page. We welcome pull requests to submit your results!
 - \[2024.01\] - The [toolkit](https://github.com/robodrive-24/toolkit) tailored for [The RoboDrive Challenge](https://robodrive-24.github.io/) has been released. :hammer_and_wrench:
 - \[2023.12\] - We are hosting [The RoboDrive Challenge](https://robodrive-24.github.io/) at [ICRA 2024](https://2024.ieee-icra.org/). :blue_car:
 - \[2023.03\] - Intend to test the robustness of your 3D perception models on real-world point clouds? Check our recent work, [Robo3D](https://github.com/ldkong1205/Robo3D), a comprehensive suite that enables OoD robustness evaluation of 3D detectors and segmentors on our newly established datasets: `KITTI-C`, `SemanticKITTI-C`, `nuScenes-C`, and `WOD-C`.
@@ -72,6 +72,7 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 - [Highlight](#highlight)
 - [Data Preparation](docs/DATA_PREPARE.md)
 - [Getting Started](docs/GET_STARTED.md)
+- [Leaderboard](#leaderboard)
 - [Benchmark Results](#benchmark-results)
 - [Evaluation](#evaluation)
 - [Customize Evaluation](#customize-evaluation)
@@ -85,19 +86,19 @@ Visit our <a href="https://pointcloud-c.github.io/home" target='_blank'>project 
 ## Highlight
 #### Corruption Taxonomy
 <p align="center">
-  <img src="figs/c-taxonomy.png" align="center" width="95%">
+  <img src="figs/c-taxonomy.png" align="center" width="75%">
 </p>
 
 #### ModelNet-C (Classification)
 <br>
 <p align="center">
-  <img src="figs/c-classification.jpeg" align="center" width="95%">
+  <img src="figs/c-classification.jpeg" align="center" width="75%">
 </p>
 
 #### ShapeNet-C (Part Segmentation)
 <br>
 <p align="center">
-  <img src="figs/c-partseg.png" align="center" width="95%">
+  <img src="figs/c-partseg.png" align="center" width="75%">
 </p>
 
 ## Data Preparation
@@ -106,6 +107,16 @@ Please refer to [DATA_PREPARE.md](docs/DATA_PREPARE.md) for the details to prepa
 
 ## Getting Started
 Please refer to [GET_STARTED.md](docs/GET_STARTED.md) to learn more usage about this codebase.
+
+## Leaderboard
+
+| Method            | Reference                                                  | Augmentation |  mCE $\downarrow$ | Clean OA $\uparrow$ |
+| ----------------- | ---------------------------------------------------------- | :--------: | :---: | :------: |
+| EPiC (RPC, WOLFMix)| [Levi et al.](https://openaccess.thecvf.com/content/ICCV2023/papers/Levi_EPiC_Ensemble_of_Partial_Point_Clouds_for_Robust_Classification_ICCV_2023_paper.pdf), ICCV 2023  |     Yes    | 0.501 |  0.927   |
+| EPiC (PCT)| [Levi et al.](https://openaccess.thecvf.com/content/ICCV2023/papers/Levi_EPiC_Ensemble_of_Partial_Point_Clouds_for_Robust_Classification_ICCV_2023_paper.pdf), ICCV 2023  |     No    | 0.646 |  0.934   |
+| WOLFMix (GDANet)  | [Ren et al.](https://arxiv.org/abs/2202.03377), ICML 2022             |     Yes     | 0.571 |  0.934   |
+| RPC  | [Ren et al.](https://arxiv.org/abs/2202.03377), ICML 2022             |     No     | 0.863 |  0.930   |
+
 
 
 ## Benchmark Results
